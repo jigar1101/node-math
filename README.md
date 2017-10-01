@@ -1,4 +1,4 @@
-# node-math
+# Node Math
 Module to perform math operations on 2 numbers
 
 Run ```node index.js``` to run the module.
