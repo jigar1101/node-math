@@ -4,8 +4,10 @@
   "description": "Module to perform math operations on 2 numbers",
   "main": "index.js",
   "scripts": {
-    "dev": "jest && node index",
-    "test-jest": "jest"
+    "dev-jest": "npm run test-jest && node index",
+    "dev-mocha": "npm run test-mocha && node index",
+    "test-jest": "jest",
+    "test-mocha": "mocha mocha-test-cases"
   },
   "keywords": [],
   "author": "Jigar Mehta",
@@ -15,6 +17,7 @@
     "prompt": "^1.0.0"
   },
   "devDependencies": {
-    "jest": "^21.2.1"
+    "jest": "^21.2.1",
+    "mocha": "^3.5.3"
   }
 }
