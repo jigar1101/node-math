@@ -1,23 +1,23 @@
 {
-  "name": "node-math",
-  "version": "1.0.1",
-  "description": "Module to perform math operations on 2 numbers",
-  "main": "index.js",
-  "scripts": {
-    "dev-jest": "npm run test-jest && node index",
-    "dev-mocha": "npm run test-mocha && node index",
-    "test-jest": "jest",
-    "test-mocha": "mocha mocha-test-cases"
-  },
-  "keywords": [],
-  "author": "Jigar Mehta",
-  "license": "Apache-2.0",
-  "private": false,
-  "dependencies": {
-    "prompt": "^1.0.0"
-  },
-  "devDependencies": {
-    "jest": "^21.2.1",
-    "mocha": "^3.5.3"
-  }
+	"name": "node-math",
+	"version": "1.0.1",
+	"description": "Module to perform math operations on 2 numbers",
+	"main": "index.js",
+	"scripts": {
+		"dev-jest": "npm run test-jest && node index",
+		"dev-mocha": "npm run test-mocha && node index",
+		"test-jest": "jest",
+		"test-mocha": "mocha mocha-test-cases"
+	},
+	"keywords": [],
+	"author": "Jigar Mehta",
+	"license": "Apache-2.0",
+	"private": false,
+	"dependencies": {
+		"prompt": "^1.0.0"
+	},
+	"devDependencies": {
+		"jest": "^24.5.0",
+		"mocha": "^6.0.2"
+	}
 }
